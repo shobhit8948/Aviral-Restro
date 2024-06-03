@@ -7,6 +7,9 @@
         <input type="password" v-model="password" placeholder="Enter Password" />
         <button v-on:click="signUp">Sign Up</button>
     </div>
+    <p>
+        If you have already an account then <router-link to="/login">click here to Login</router-link>
+    </p>
 </template>
 <script>
 
@@ -36,30 +39,13 @@ export default {
                 }
             }
         }
+    },
+    mounted(){
+        let user= localStorage.getItem('user-info');
+        if(user)
+        {
+            this.$router.push({name: 'Home'})
+        }
     }
-}
+};
 </script>
-<style>
-.logo{
-    width: 100px;
-}
-.signup input{
-    width: 300px;
-    height: 30px;
-    padding-left: 20px;
-    display: block;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid black;
-}
-.signup button{
-    color: white;
-    background-color: black;
-    margin: 1%;
-    width: 300px;
-    height: 30px;
-    border-radius: 15px;
-    cursor: pointer;
-}
-</style>
