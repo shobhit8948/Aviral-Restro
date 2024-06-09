@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": "d398",
+      "email": "shobs123",
+      "name": "shobs",
+      "password": "shobs321"
+    },
+    {
+      "id": "f9d5",
+      "email": "hello123",
+      "name": "hello",
+      "password": "hello321"
+    },
+    {
+      "id": "4043",
+      "email": "json son",
+      "name": "json",
+      "password": "son321"
+    },
+    {
+      "id": "3a03",
+      "email": "shakti@man.com",
+      "name": "shaktiman",
+      "password": "man"
+    },
+    {
+      "id": "5ad9",
+      "email": "shobs@gmail.com",
+      "name": "shobs",
+      "password": "shobs@123"
+    },
+    {
+      "id": "23d5",
+      "email": "Rashu@test.com",
+      "name": "Rashu",
+      "password": "Rashu123"
+    }
+  ],
+  "restaurant": [
+    {
+      "name": "Burger King",
+      "address": "Noida Sector 30",
+      "contact": "11489",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Dominos",
+      "contact": 1122,
+      "address": "Gurgon Sector 20"
+    },
+    {
+      "id": "3",
+      "name": "KFC",
+      "contact": 1144,
+      "address": "Delhi CP"
+    },
+    {
+      "name": "Starbucks",
+      "address": "delhi Saket ",
+      "contact": "154956",
+      "id": "5620"
+    },
+    {
+      "id": "de0f",
+      "name": "KFC",
+      "address": "Saket Delhi",
+      "contact": "16655"
+    }
+  ]
+}

@@ -25,7 +25,7 @@ body{
   margin-top: 60px;
   width: 100px;
 }
-.login input, .signup input{
+.login input, .signup input, .add input{
     width: 300px;
     height: 30px;
     padding-left: 20px;
@@ -35,7 +35,7 @@ body{
     margin-right: auto;
     border: 2px solid black;
 }
-.login button, .signup button{
+.login button, .signup button, .add button{
     color: white;
     background-color: black;
     margin: 1%;
